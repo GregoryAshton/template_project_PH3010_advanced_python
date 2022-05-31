@@ -12,6 +12,9 @@ template_project_PH3010_advanced_python/
 ├── .github/
 │   └── workflows/
 │              └── python_test.yml
+├── docs/
+│   └── ../
+│   └── workflows/
 ├── src/
 │   └── example_package/
 │       ├── __init__.py
@@ -28,6 +31,7 @@ Let's look at each element individually
 * `README.md` A [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) document telling users about the project
 * `pyproject.toml` tells build tools (like pip and build) what is required to build your project.
 * `requirements.txt` contains the requirements for the project, you can install these with `pip install -r requirements.txt`
+* `docs/` contains the documentation - we won't discuss this further here.
 * `.github/workflows/python_test.yml` contains a [YAML](https://yaml.org/) file which determined how github Action are run
 * `src/` contains the python package itself
 * `tests/` contains the tests of the python package
