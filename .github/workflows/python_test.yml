@@ -39,4 +39,5 @@ jobs:
         codespell .
     - name: Run tests
       run: |
+        pip install .
         pytest .
